@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            font-family: 'Libre Baskerville', serif;
+        }
+        html,body{
+            padding: 0;
+            margin: 0;
+        }
+        .img-con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .img-con img{
+            width: 100%;
+            height: 340px;
+            object-fit: cover;
+        }
+        .img-con p{
+            font-size: 70px;
+            color: white;
+        }
+        .con{
+            padding-top: 60px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: #fed04f;
+
+        }
+        .services{
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .left-side{
+            width: 35%;
+            flex-wrap: wrap;
+            
+        }
+        .right-side{
+            width: 35%;
+            flex-wrap: wrap;
+            
+        }
+        p{
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+        li{
+            margin-top: 15px;
+        }
+        .con1{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: #0194E0;
+
+        }
+        .services1{
+            display: flex;
+            width: 70%;
+            justify-content: space-evenly;
+        }
+        .left-side1{
+            width: 35%;
+            flex-wrap: wrap;
+        }
+        .right-side1{
+            width: 35%;
+            flex-wrap: wrap;
+        }
+        .con2{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: #fed04f;
+
+        }
+        .services2{
+            display: flex;
+            width: 70%;
+            justify-content: space-evenly;
+        }
+        .left-side2{
+            width: 35%;
+            flex-wrap: wrap;
+        }
+        .right-side2{
+            width: 35%;
+            flex-wrap: wrap;
+        }
+        .con3{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: #0194E0;
+
+        }
+        .services3{
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .left-side3{
+            width: 35%;
+            flex-wrap: wrap;
+        }
+        .right-side3{
+            width: 35%;
+            flex-wrap: wrap;
+            
+        }
+        @media screen and (max-width:900px) {
+            .services{
+                display: block;
+            }
+            .left-side{
+                width: 100%;
+            }
+            .right-side{
+                display: none;
+            }
+            .services1{
+                display: block;
+            }
+            .left-side1{
+                display: none;
+            }
+            .right-side1{
+                width: 100%;
+            }
+            .services2{
+                display: block;
+            }
+            .left-side2{
+                width: 100%;
+            }
+            .right-side2{
+                display: none;
+            }
+            .services3{
+                display: block;
+            }
+            .left-side3{
+                display: none;
+            }
+            .right-side3{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header style= "background:rgb(201,215,226);" class="header-con w-100 ">
+
+        <nav id="head" class="navbar navbar-expand-lg  bg-transparent" style="margin-left: 50px;">
+            <!-- logo svg -->
+            <div style="top: 0;" class="container-fluid bg-transparent">
+              <a class="navbar-brand" href="index.html"><img style="width: 150px; height: 100px;" src="img/logo1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="containers.html">CONTAINERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LEGAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  <!-- header end -->
+  <!-- main start -->
+
+  <main>
+    <div class="img-con d-flex">
+        <img src="img/Volvo-Semi-Truck.jpg" alt="">
+        <p style="position: absolute; justify-content: center; align-items: center;">SERVICES</p>
+    </div>
+
+    <div class="con">
+        <div class="services">
+            <div class="left-side">
+                <h2 style="text-shadow: 2px 2px 5px #0194E0; font-size: 24px; margin-top: 100px;">Bulk Liquid and Gases</h2>
+                <p style="margin-top: 50px; margin-bottom: 30px;">With our vast network and extensive experience in the deep sea market, Bulkhaul is a truly global operator. The continued annual growth in our fleet size gives us an extensive range of options and with a variety of equipment available to clients, including:</p>
+                <ul>
+                    <li>A fleet of deep sea tanks ranging in capacity from 14,000 litres through to our standard 25,000 & 26,000 litre units;</li>
+                    <li>One of the world’s largest fleets of baffled units to enhance the smooth and safe movement of our customer’s products;</li>
+                    <li>Specially-equipped units ranging from 28,000-35,000 litre tanks, in addition to two and three compartment tanks, including a fleet of gas tanks;</li>
+                    <li>Through our partnership with a dedicated tank manufacturing facility, we also provide innovative, tailored solutions to our customers’ particular transportation requirements.</li>
+                    <li>Our annual production of new equipment provides us with food–quality tanks to service the FOSFA & food industry. We carry wines, spirits and other liquid foodstuffs, such as vegetable oils and fruit juices.</li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <img style="width: 555px; height: 834px;" src="img/Bulkhaul-Yard-11-e1653445438461.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="con1">
+
+        <div class="services1">
+            <div class="left-side1">
+                <img style="margin-top: 100px; height: 533px; width: 100%; padding-bottom: 10px;" src="img/12.jpg" alt="">
+            </div>
+            <div class="right-side1">
+                <h2 style="text-shadow: 2px 2px 5px #fed04f; font-size: 24px; margin-top: 100px;">Dry Bulk</h2>
+                <p>Our Dry Bulk division operates a large fleet of 30’ Intermodal Bag in Box containers across Europe. The division is operated and managed from our offices in Middlesbrough and Gent with support from other offices and centres.</p>
+                <p>The fleet is complemented by specialist discharge equipment offering bespoke door-to-door services. We develop, together with our client base, concepts that support the supply chain with intermediate storage, product-specific technical solutions and ‘just-in-time deliveries’ providing an enhanced level of service to the plastics and polymer industry, throughout the region.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="con2">
+        <div class="services2">
+            <div class="left-side2">
+                <h2 style="text-shadow: 2px 2px 5px #0194E0; font-size: 24px; margin-top: 100px;">Transport</h2>
+                <p>Bulkhaul’s dedicated fleet of vehicles and drivers throughout the UK and Europe, means we can offer door-to-door services, with highly-trained drivers and modern and sophisticated vehicles and trailers. Having used this European model as the benchmark, we can also offer the same, consistent quality of service around the world.</p>
+            </div>
+            <div class="right-side2">
+                <img style="margin-top: 100px; height: 425px; width: 555px; padding-bottom: 10px;" src="img/ransport.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="con3">
+        <div class="services3">
+            <div class="left-side3">
+                <img style="margin-top: 100px; height: 425px; width: 100%;" src="img/Fleet-Management.jpg" alt="">
+            </div>
+            <div class="right-side3">
+                <h2 style="text-shadow: 2px 2px 5px #fed04f; font-size: 24px; margin-top: 100px;">Fleet Management</h2>
+                <p>We also offer a comprehensive fleet management service, integrating customer-owned or leased equipment into our network, operating and managing that fleet as if it were our own. This would include maintenance and repair, plus regulatory testing and operating. If required, this service can also include dedicated data base links between computer systems, giving real-time updates on the status of loading and delivery.</p>
+                <strong style="font-weight: bolder;">
+                    <em style="font-style: italic;">One world, one option, Bulkhaul.</em>
+                </strong>
+            </div>
+        </div>
+    </div>
+  </main>
+  <!-- main end -->
+  <!-- footer start -->
+  <footer style="display: flex; justify-content: center; padding-top: 70px; flex-wrap: wrap; background: #fed04f;">
+    <div class="card text-center mb-3" style="width: 18rem; background: #0194E0; width: 90%;">
+        <div class="card-body">
+          <h2 style="margin-bottom: 30px;" class="card-title">CONTANCT US</h2>
+          
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+          <a href=""><svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg></a>
+          <a href=""><svg style="color: rgb(219, 11, 219);" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg></a>
+          <a href=""><svg style="color: blue;" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg></a>
+        </div>
+        <p style="margin-top: 20px; margin-bottom: 0px; line-height: 0;"><h2>CALL US</h2></p>
+        <p style="margin-top: 0px; margin-bottom: 0px; line-height: 0;"><h3>+1 555 555 50 50</h3></p>
+      </div>
+
+      
+</footer>
+  <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
